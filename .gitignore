@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Checkpoints et modèles (lourds)
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.gguf
+
+# Logs et données volumineuses
+logs/
+*.log
+data_raw/*.jsonl
+data_processed/
+.cache/
+
+# IDE / éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env et secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Hugging Face (cache local)
+huggingface_hub/
+
+# Optionnel : décommenter si tu ne veux pas versionner le tokenizer teacher
+# teacher_tokenizer/

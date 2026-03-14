@@ -1,0 +1,11 @@
+torch>=2.1.0
+numpy>=1.24.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+trafilatura>=1.6.0
+tqdm>=4.65.0
+rich>=13.0.0
+transformers>=4.37.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+duckduckgo-search>=4.0

@@ -1,0 +1,23 @@
+# Ratios de melange pour le data pipeline (somme ~1.0).
+# Sortie : JSONL dans data_raw/ compatible avec load_texts() (champ "text").
+
+mix:
+  conversations: 0.30
+  books_articles: 0.25
+  wikipedia: 0.15
+  instructions_qa: 0.15
+  code: 0.10
+  web_crawl: 0.05
+
+languages:
+  fr: 0.70
+  en: 0.30
+
+# Objectif taille (approximatif ; le pipeline compte des caracteres ~4 chars/token)
+max_tokens: 1000000000
+sequence_length: 2048
+seed: 42
+
+# Repertoire de sortie (relatif au ROOT du projet)
+output_dir: data_raw
+output_prefix: mixed
